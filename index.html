@@ -1,0 +1,27 @@
+<?php
+  session_start()
+?>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+<form method="post" action="login.inc.php" class="login-box">
+  <h1>Log in:</h1>
+  <div class="textbox">
+    <i class="fas fa-user"></i>
+    <input type="text" name='username' placeholder="Username">
+  </div>
+  <div class="textbox">
+    <i class="fas fa-key"></i>
+    <input type="password" name='password' placeholder="Password">
+  </div>
+  <input type="submit" class="btn" value="Sign in">
+  <h3 style="font-family: serif; text-align: center; color: lightcoral;">Click below to sign Up </h3>
+  <button type="button" onclick="document.location='signup.html'" class="btn">Sign up</button>
+</form>
+  </body>
+</html>
